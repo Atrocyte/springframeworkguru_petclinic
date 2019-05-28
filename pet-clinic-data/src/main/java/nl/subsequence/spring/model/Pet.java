@@ -1,4 +1,4 @@
-package nl.subsequence.spring.petclinic.model;
+package nl.subsequence.spring.model;
 
 import java.time.LocalDate;
 

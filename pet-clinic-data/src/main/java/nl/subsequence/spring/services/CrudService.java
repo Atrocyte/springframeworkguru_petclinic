@@ -2,7 +2,7 @@ package nl.subsequence.spring.services;
 
 import java.util.Set;
 
-interface CrudService<T, ID> {
+public interface CrudService<T, ID> {
 
     T findById(ID id);
 

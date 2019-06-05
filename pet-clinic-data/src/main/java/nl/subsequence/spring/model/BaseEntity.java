@@ -2,6 +2,7 @@ package nl.subsequence.spring.model;
 
 import java.io.Serializable;
 
+//TODO create proper equals method
 public class BaseEntity implements Serializable {
 
     private Long id;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="https://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'home')}">
 <head>
     <meta charset="UTF-8">
     <title>Vet Index</title>
@@ -8,7 +8,7 @@
 
 <h1 th:text="Vet_Index">Vet Index</h1>
 
-<table>
+<table class="table table-striped">
     <thead>
     <tr>
         <th>Id</th>

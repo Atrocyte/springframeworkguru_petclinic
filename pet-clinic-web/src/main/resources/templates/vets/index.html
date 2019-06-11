@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Vet Index</title>
+</head>
+<body>
+
+<h1 th:text="Vet_Index">Vet Index</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Fist Name</th>
+        <th>LastName</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="vet:${vets}">
+        <td th:text="${vet.id}">1</td>
+        <td th:text="${vet.firstName}">Pete</td>
+        <td th:text="${vet.lastName}">Achternaam</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

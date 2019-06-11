@@ -1,4 +1,4 @@
-package nl.subsequence.spring.model;
+package nl.subsequence.spring.petclinic.data.model;
 
 import java.io.Serializable;
 

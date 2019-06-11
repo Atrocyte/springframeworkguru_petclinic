@@ -1,7 +1,7 @@
-package nl.subsequence.spring.services;
+package nl.subsequence.spring.petclinic.data.services;
 
-import nl.subsequence.spring.model.Owner;
-import nl.subsequence.spring.model.Pet;
+import nl.subsequence.spring.petclinic.data.model.Owner;
+import nl.subsequence.spring.petclinic.data.model.Pet;
 
 import java.util.Set;
 

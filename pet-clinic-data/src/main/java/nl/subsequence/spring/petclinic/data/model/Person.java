@@ -1,4 +1,4 @@
-package nl.subsequence.spring.model;
+package nl.subsequence.spring.petclinic.data.model;
 
 public class Person extends BaseEntity {
     private String firstName;

@@ -1,4 +1,4 @@
-package nl.subsequence.spring.services;
+package nl.subsequence.spring.petclinic.data.services;
 
 import java.util.Set;
 

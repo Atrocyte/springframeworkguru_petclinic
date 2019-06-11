@@ -1,8 +1,6 @@
-package nl.subsequence.spring.services;
+package nl.subsequence.spring.petclinic.data.services;
 
-import nl.subsequence.spring.model.Owner;
-
-import java.util.Set;
+import nl.subsequence.spring.petclinic.data.model.Owner;
 
 public interface OwnerService extends CrudService<Owner, Long> {
 
